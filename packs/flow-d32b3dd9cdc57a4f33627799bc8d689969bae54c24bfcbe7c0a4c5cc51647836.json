@@ -1,0 +1,2267 @@
+{
+  "schema": 1,
+  "site": "flow",
+  "version": "2026.09.20.1",
+  "minEngine": "1.0.0",
+  "rules": [
+    {
+      "source": "Skip to main content",
+      "target": "跳转到主要内容",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend,a",
+      "group": "public-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Previous model",
+      "target": "上一个模型",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend,a",
+      "group": "public-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Next model",
+      "target": "下一个模型",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend,a",
+      "group": "public-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Google AI subscribers now receive 50 additional Flow credits daily",
+      "target": "Google AI 订阅用户现可每天额外获得 50 个 Flow 点数",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upgrade",
+      "target": "升级",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Tools from creators like you",
+      "target": "来自创作者的实用工具",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Explore tools curated from the Google Flow Community. Click into the tools gallery in any project to get started!",
+      "target": "探索精选自 Google Flow 社区的工具。在任意项目中打开工具库，即可开始使用！",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Explore Tools",
+      "target": "探索工具",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Introducing Gemini Omni Flash",
+      "target": "全新推出 Gemini Omni Flash",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Cinematic realism, powerful editing, world knowledge: try our latest video generation model!",
+      "target": "电影级真实感、强大的编辑能力与世界知识：试用我们最新的视频生成模型！",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Try Omni now",
+      "target": "立即试用 Omni",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create characters and cast them anywhere.",
+      "target": "创建角色，让他们出演各种故事。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Define their look, voice, and personality once. Reference them anywhere with a simple @tag.",
+      "target": "一次设定角色的外貌、声音和个性，即可通过简单的 @标签 随时引用。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create a character",
+      "target": "创建角色",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "A creative partner at every step.",
+      "target": "陪伴每一步创作的伙伴。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Brainstorming, prompting, batch editing, organizing your media, and more– see what the agent can do for you.",
+      "target": "从头脑风暴、编写提示词到批量编辑和整理素材，探索智能体能为你提供的帮助。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Try the Google Flow Agent",
+      "target": "试用 Google Flow 智能体",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Your face, your voice, your story.",
+      "target": "你的面容，你的声音，你的故事。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create an avatar (experimental feature) to star in any videos and take your storytelling to a whole new level.",
+      "target": "创建虚拟形象（实验性功能），让它出演视频，拓展你的故事表达方式。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Get started",
+      "target": "开始使用",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Take Google Flow on the road.",
+      "target": "随时随地使用 Google Flow。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create, manage, and share your creations with the new Flow App. Available first for Android; click ‘Learn More’ to download.",
+      "target": "使用全新的 Flow 应用创作、管理和分享作品。目前率先支持 Android；点击“了解详情”即可下载。",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Learn More",
+      "target": "了解详情",
+      "selector": "[role=\"region\"].promotion-banner-container",
+      "group": "home-banner-observed",
+      "evidence": "observed-2026-09-20",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "New project",
+      "target": "新建项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create project",
+      "target": "创建项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create a project",
+      "target": "创建项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Text to Video",
+      "target": "文生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Text to video",
+      "target": "文生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Frames to Video",
+      "target": "图帧生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Frames to video",
+      "target": "图帧生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Ingredients to Video",
+      "target": "素材生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Ingredients to video",
+      "target": "素材生视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create Image",
+      "target": "生成图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create image",
+      "target": "生成图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generate video",
+      "target": "生成视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generate image",
+      "target": "生成图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add to scene",
+      "target": "添加到场景",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add to Scenebuilder",
+      "target": "添加到场景创建工坊",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Jump to",
+      "target": "跳转到",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Extend video",
+      "target": "延长视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Extend clip",
+      "target": "延长片段",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upload image",
+      "target": "上传图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upload video",
+      "target": "上传视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add image",
+      "target": "添加图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add frame",
+      "target": "添加图帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add ingredient",
+      "target": "添加素材",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "First frame",
+      "target": "首帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Last frame",
+      "target": "尾帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Start frame",
+      "target": "起始帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "End frame",
+      "target": "结束帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Swap frames",
+      "target": "交换首尾帧",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Remove image",
+      "target": "移除图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Camera controls",
+      "target": "镜头控制",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Camera movement",
+      "target": "镜头运动",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Aspect ratio",
+      "target": "宽高比",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Outputs per prompt",
+      "target": "每条提示词的输出数量",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generation settings",
+      "target": "生成设置",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Video settings",
+      "target": "视频设置",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Image settings",
+      "target": "图片设置",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Landscape (16:9)",
+      "target": "横向（16:9）",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Portrait (9:16)",
+      "target": "纵向（9:16）",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download video",
+      "target": "下载视频",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download image",
+      "target": "下载图片",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download original",
+      "target": "下载原始文件",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Reuse prompt",
+      "target": "复用提示词",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Copy prompt",
+      "target": "复制提示词",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Edit prompt",
+      "target": "编辑提示词",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Show prompt",
+      "target": "显示提示词",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Hide prompt",
+      "target": "隐藏提示词",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Report a problem",
+      "target": "报告问题",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Send feedback",
+      "target": "发送反馈",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "More options",
+      "target": "更多选项",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Back to projects",
+      "target": "返回项目列表",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Project settings",
+      "target": "项目设置",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Rename project",
+      "target": "重命名项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Delete project",
+      "target": "删除项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Search projects",
+      "target": "搜索项目",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Search assets",
+      "target": "搜索素材",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "View all",
+      "target": "查看全部",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Load more",
+      "target": "加载更多",
+      "selector": "button,[role=\"button\"],[role=\"menuitem\"],[role=\"tab\"],[role=\"option\"],label,legend",
+      "group": "creation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Home",
+      "target": "首页",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Projects",
+      "target": "项目",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Library",
+      "target": "素材库",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Assets",
+      "target": "素材",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Tools",
+      "target": "工具",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Settings",
+      "target": "设置",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Help",
+      "target": "帮助",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Feedback",
+      "target": "反馈",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Scenebuilder",
+      "target": "场景创建工坊",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Videos",
+      "target": "视频",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Images",
+      "target": "图片",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "All",
+      "target": "全部",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Favorites",
+      "target": "收藏",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Recent",
+      "target": "最近",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "About",
+      "target": "关于",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Explore",
+      "target": "探索",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "My projects",
+      "target": "我的项目",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Grid view",
+      "target": "网格视图",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "List view",
+      "target": "列表视图",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Sort by",
+      "target": "排序方式",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Newest first",
+      "target": "最新优先",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Oldest first",
+      "target": "最早优先",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Rename",
+      "target": "重命名",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Duplicate",
+      "target": "创建副本",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Delete",
+      "target": "删除",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download",
+      "target": "下载",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Edit",
+      "target": "编辑",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Copy",
+      "target": "复制",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Move",
+      "target": "移动",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Share",
+      "target": "分享",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Remove",
+      "target": "移除",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Add",
+      "target": "添加",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Trim",
+      "target": "修剪",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Extend",
+      "target": "延长",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upscale",
+      "target": "高清重塑",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Landscape",
+      "target": "横向",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Portrait",
+      "target": "纵向",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Square",
+      "target": "正方形",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Quality",
+      "target": "质量",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Fast",
+      "target": "快速",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Zoom in",
+      "target": "放大",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Zoom out",
+      "target": "缩小",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Fit to screen",
+      "target": "适应屏幕",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Undo",
+      "target": "撤销",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Redo",
+      "target": "重做",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Play",
+      "target": "播放",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Pause",
+      "target": "暂停",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Mute",
+      "target": "静音",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Unmute",
+      "target": "取消静音",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Loop",
+      "target": "循环播放",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Audio",
+      "target": "音频",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Duration",
+      "target": "时长",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Resolution",
+      "target": "分辨率",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Model",
+      "target": "模型",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Camera",
+      "target": "镜头",
+      "selector": "nav,[role=\"navigation\"],[role=\"menu\"],[role=\"menubar\"],[role=\"toolbar\"],[role=\"tablist\"]",
+      "group": "navigation",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Cancel",
+      "target": "取消",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Save",
+      "target": "保存",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Close",
+      "target": "关闭",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Done",
+      "target": "完成",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Confirm",
+      "target": "确认",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Delete",
+      "target": "删除",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Rename",
+      "target": "重命名",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Continue",
+      "target": "继续",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Back",
+      "target": "返回",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Next",
+      "target": "下一步",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Retry",
+      "target": "重试",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Try again",
+      "target": "重试",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upload",
+      "target": "上传",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download",
+      "target": "下载",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Create",
+      "target": "创建",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Apply",
+      "target": "应用",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Reset",
+      "target": "重置",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Remove",
+      "target": "移除",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Dismiss",
+      "target": "关闭",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Name",
+      "target": "名称",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Project name",
+      "target": "项目名称",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "File name",
+      "target": "文件名",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Description",
+      "target": "说明",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Aspect ratio",
+      "target": "宽高比",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Resolution",
+      "target": "分辨率",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Duration",
+      "target": "时长",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Audio",
+      "target": "音频",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Language",
+      "target": "语言",
+      "selector": "[role=\"dialog\"] button,[role=\"dialog\"] [role=\"button\"],[role=\"dialog\"] label,[role=\"dialog\"] legend,[role=\"alertdialog\"] button,[role=\"alertdialog\"] [role=\"button\"],[role=\"alertdialog\"] label,[role=\"alertdialog\"] legend,dialog button,dialog [role=\"button\"],dialog label,dialog legend",
+      "group": "dialog-controls",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Loading...",
+      "target": "正在加载…",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Loading",
+      "target": "正在加载",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generating...",
+      "target": "正在生成…",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generating",
+      "target": "正在生成",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Uploading...",
+      "target": "正在上传…",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Downloading...",
+      "target": "正在下载…",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Something went wrong",
+      "target": "出错了",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Something went wrong. Please try again.",
+      "target": "出错了，请重试。",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Failed to generate",
+      "target": "生成失败",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Copied to clipboard",
+      "target": "已复制到剪贴板",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Changes saved",
+      "target": "更改已保存",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "No results found",
+      "target": "未找到结果",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Generation failed",
+      "target": "生成失败",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Upload failed",
+      "target": "上传失败",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Download failed",
+      "target": "下载失败",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Please try again later.",
+      "target": "请稍后重试。",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Not enough credits",
+      "target": "点数不足",
+      "selector": "[role=\"status\"],[role=\"alert\"],[role=\"tooltip\"]",
+      "group": "system-status",
+      "evidence": "candidate",
+      "attributes": [
+        "text",
+        "title",
+        "aria-label"
+      ]
+    },
+    {
+      "source": "Search projects",
+      "target": "搜索项目",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Search assets",
+      "target": "搜索素材",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Search",
+      "target": "搜索",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Enter project name",
+      "target": "输入项目名称",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Describe your video",
+      "target": "描述你想要的视频",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Describe your image",
+      "target": "描述你想要的图片",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Type a prompt",
+      "target": "输入提示词",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "Enter a prompt",
+      "target": "输入提示词",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    },
+    {
+      "source": "What do you want to create?",
+      "target": "你想创作什么？",
+      "selector": "input,textarea,[contenteditable],[role=\"textbox\"]",
+      "group": "input-hints",
+      "evidence": "candidate",
+      "attributes": [
+        "placeholder",
+        "aria-placeholder"
+      ]
+    }
+  ]
+}
